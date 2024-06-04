@@ -1,0 +1,13 @@
+export const LONG_ENOUGH_RULE = 'longEnough'
+export const CONTAINS_NUMBER_RULE = 'withNumber'
+export const CONTAINS_SPECIAL_CHARACTER_RULE = 'withSpecialCharacter'
+export const CONTAINS_UPPERCASE_CHARACTER_RULE = 'withUppercaseCharacter'
+export const NO_CONSECUTIVE_CHARACTERS_RULE = 'noConsecutiveCharacters'
+
+export const ALLOWED_RULES = [
+  LONG_ENOUGH_RULE,
+  CONTAINS_NUMBER_RULE,
+  CONTAINS_SPECIAL_CHARACTER_RULE,
+  CONTAINS_UPPERCASE_CHARACTER_RULE,
+  NO_CONSECUTIVE_CHARACTERS_RULE
+]
